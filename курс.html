@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="q123">
+    <p id="headtext">Для того чтобы заказать курс заполните анкету</p>
+    <div id="form">
+        <p id="anketa">Анкета заказчика</p>
+        <input id="name" value="Введите свое имя и фамилию" type="form">
+        <input id="pochta" value="Ваш электронный адрес" type="form">
+        <input id="password" value="Придумайте пароль" type="form">
+        <input id="againpassword" value="Повторите пароль" type="form">
+        <input id="coursebutton" onclick="coursebutton()" type="button" value="Подтвердить">
+    </div>
+    <script>
+        function coursebutton(){
+            alert("Вся информация о курсах и о их стоимости прийдет вам на почту!")
+        }
+    </script>
+</body>
+</html>
